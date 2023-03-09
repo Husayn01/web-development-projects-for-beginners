@@ -11,7 +11,7 @@ Welcome to our open source repository for web development beginners! Here you'll
 |Password Generator| [Code](https://github.com/Husayn01/password-generator)| [Demo](https://password-generator02.netlify.app/)|
 |Quote Generator | [Code](https://github.com/Husayn01/Random-Quote-Generator)| [Demo](https://app.netlify.com/sites/random-quote-generator01/)|
 |Calculator | [Code](https://github.com/Husayn01/Javascript-calculator)| [Demo](https://html-calculator.netlify.app/)|
-
+|EasyBanking landing page| [Code](https://github.com/HeemahMuslad/easybank-landing-page)| [Demo](http://easybanking-landing-page-heemah.netlify.app)|
 
 ## :handshake: Our Contributors
 
