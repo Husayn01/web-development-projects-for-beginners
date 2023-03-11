@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{    
+    background: linear-gradient(135deg, #8052ec, #d161ff);
+    position: relative;
+    height: 100vh;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 500px;
+    padding: 30px;
+    
+}
+
+.new-task{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.new-task input {
+    height: 100%;
+    padding: 15px;
+    width: 70%;
+    color: #111111;
+    border: #d1d3d4 1px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: start;
+}
+
+
+.new-task input:focus{
+    border: #8052ec 2px solid;
+    outline: none;
+}
+
+.new-task #add {
+    height: 100%;
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #8052ec;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.new-task #add:hover {
+    cursor: pointer;
+    background-color: purple;
+}
+
+.added-task{
+    margin-top: 60px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 50px 25px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.added-task .task-box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #c5c5c5 solid;
+    padding: 10px;
+}
+
+.added-task .task-box p{
+    font-size: 25px;
+    color: #000;
+    font-weight: 300;
+}
+
+.added-task .task-box .task.line {
+    text-decoration: line-through;
+}
+
+
+
+.added-task .task-box .delete {
+    background-color: #8052ec;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.added-task .task-box .delete i {
+    color: #fff;
+}
